@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Marina Esgueva Ruiz}
+\title{Resultados2}
+\begin{document}
+\begin{table}
+\begin{center}
+\caption{IMQ. $\epsilon=2$. Centros fuera del dominio}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\ $N$ & EDP origina & Condiciones de frontera 0 & EDP cero & Condicionamiento\\
+\hline
+\ 9 & 1.0170e-01 & 4.8006e-02 & 4.7151e-02&5.1990e+01 \\
+\ 25 & 1.2942e-02 & 7.9320e-03 & 2.0971e-02&2.5533e+03 \\
+\ 81 & 1.4012e-03 & 1.0124e-03& 3.2419e-03&5.1579e+06 \\
+\ 169 & 2.0923e-04 & 1.6831e-04&5.9000e-04&1.3049e+10\\
+\ 289 & 3.4378e-05&2.9377e-05&1.1000e-04&3.8127e+13\\
+\ 1089 & 3.3510e-07&3.4261e-07&1.5382e-06&3.2527e20\\
+\hline  
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\begin{center}
+\caption{Gaussiana. $\epsilon=2$. Centros fuera del dominio}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\ $N$ & EDP origina & Condiciones de frontera 0 & EDP cero & Condicionamiento\\
+\hline
+\ 9 & 8.2705e-02 & 4.0848e-02 &  5.6436e-02& 4.3541e+01 \\
+\ 25 &  9.4888e-03 &5.3835e-03  & 1.6920e-02 &3.8944e+04\\
+\ 81 &2.2911e-04  &1.4522e-04 &8.8348e-04 &1.4870e+13\\
+\ 169 &3.3782e-06 &6.6781e-06 & 3.3269e-05& 2.0095e+19\\
+\ 289 &2.2702e-07 &2.2351e-07&2.3301e-06&2.2668e+20\\
+\ 1089 &1.6420e-07 &4.9405e-07&2.8806e-06& 8.0450e+20\\
+\hline  
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\begin{center}
+\caption{$N=289$. IMQ. Centros fuera del dominio.}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\ $\epsilon$ & \multicolumn{2}{|c|}{Condiciones de frontera 0} & \multicolumn{2}{|c|}{EDP 0} \\
+\hline
+\ & ECM & Condicionamiento & ECM & Condicionamiento \\
+\hline
+\ 0.5 & 6.3543e-06 & 4.6442e+19 &7.8815e-05& 4.6442e+19 \\
+\ 1 & 1.6969e-06 & 2.5160e+19 &8.2441e-06 & 2.5160e+19 \\
+\ 1.5 & 5.5059e-05 & 1.6516e+18 & 3.6055e-04 & 1.6516e+18 \\
+\ 2 & 2.9377e-05 & 3.8127e+13 & 1.1000e-04 & 3.8127e+13 \\
+\ 2.5 & 7.9954e-05 & 1.1863e+11 &  2.6131e-04 &  1.1863e+11 \\
+\ 3 & 1.4643e-04 &   2.9874e+09 & 4.4392e-04 & 2.9874e+09 \\
+\ 4 & 2.8186e-04 &  5.9167e+07 &  7.9225e-04& 5.9167e+07 \\
+\ 5 & 3.7796e-04 & 7.2723e+06 & 1.0138e-03 & 7.2723e+06 \\
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

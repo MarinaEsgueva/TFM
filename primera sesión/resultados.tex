@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{caption}
+\captionsetup[table]{name=Tabla}
+\usepackage{float}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Marina Esgueva Ruiz}
+\title{resultados}
+\begin{document}
+\begin{table}[H]
+\begin{center}
+\caption{RBF: imq, $\epsilon=3$. Puntos de colocación distribuidos uniformemente.}
+\begin{tabular}{|c|cc|cc|}
+\hline
+\ & \multicolumn{2}{|c|}{Centros en la frontera} & \multicolumn{2}{|c|}{Centros fuera del dominio} \\
+\hline
+\ $N$& ECM & Condicionamiento & ECM & Condicionamiento \\
+\hline
+\ 9 & 1.5530e-01 & 5.5474e+01& 1.6815e-01 & 6.0115e+01 \\
+\ 25 &  3.4103e-02& 5.7647e+02 & 2.4016e-02 &6.1824e+02  \\
+\ 81 & 5.7348e-03 & 1.5036e+05&  3.2760e-03 & 1.2714e+05 \\
+\ 169 & 1.4700e-03 &3.4573e+07  & 8.2937e-04&1.9667e+07  \\
+\ 289 &4.1745e-04  & 7.6428e+09&  2.3361e-04&2.9874e+09  \\
+\ 1089 & 3.6886e-06 & 8.3687e+19 &   2.1461e-06 &5.9706e+18  \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\caption{ $\epsilon=3$. Puntos de colocación distribuidos uniformemente. Centros fuera del dominio.}
+\begin{tabular}{|c|cc|cc|}
+\hline
+\ & \multicolumn{2}{|c|}{IMQ} & \multicolumn{2}{|c|}{Gaussiana} \\
+\hline
+\ $N$& ECM & Condicionamiento & ECM & Condicionamiento \\
+\hline
+\ 9 &   1.6815e-01 & 6.0115e+01 &2.3133e-01&4.8106e+01\\
+\ 25 &   2.4016e-02 &6.1824e+02 & 2.1692e-02&7.9317e+02 \\
+\ 81 &   3.2760e-03 & 1.2714e+05&1.8471e-03&1.7003e+09 \\
+\ 169 &  8.2937e-04&1.9667e+07&8.8484e-05&3.6918e+16  \\
+\ 289 &  2.3361e-04&2.9874e+09 &2.1977e-06&2.1634e+20 \\
+\ 1089 & 2.1461e-06 &5.9706e+18&1.5685e-06&  3.8634e+20\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\caption{$N=289$ Puntos de colocación distribuidos uniformemente. Centros fuera del dominio.}
+\begin{tabular}{|c|cc|cc|}
+\hline
+\ & \multicolumn{2}{|c|}{IMQ} & \multicolumn{2}{|c|}{Gaussiana} \\
+\hline
+\ $\epsilon$& ECM & Condicionamiento & ECM & Condicionamiento \\
+\hline
+\ 1 & 1.5851e-06   &2.5160e+19  & 7.1173e-06& 2.9865e+19\\
+\ 3 &  2.3361e-04  &2.9874e+09 & 2.1977e-06& 2.1634e+20\\
+\ 6 &  8.4170e-04  & 1.9860e+06&  7.4093e-04&5.9125e+11 \\
+\ 9 & 1.4726e-03 &2.9773e+05& 5.2071e-03&1.1415e+06  \\
+\ 12& 9.7571e-03&1.4881e+05  & 4.1016e-02&7.6373e+04 \\
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\end{document}

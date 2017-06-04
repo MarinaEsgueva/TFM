@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{lscape}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup[table]{name=Tabla}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Marina Esgueva Ruiz}
+\title{Método de soluciones fundamentales}
+\begin{document}
+\begin{landscape}
+\begin{table}
+\caption{EDP 1}
+\centering
+\begin{tabular}{|c|cc|cc|cc|cc|cc|}
+\hline
+\ r &\multicolumn{2}{|c|}{$N=10$} &\multicolumn{2}{|c|}{$N=20$}& \multicolumn{2}{|c|}{$N=30$}& \multicolumn{2}{|c|}{$N=40$} & \multicolumn{2}{|c|}{$N=50$} \\
+\hline
+\   & ECM & Cond & ECM & Cond & ECM & Cond & ECM & Cond & ECM & Cond \\
+\hline
+\ 1.1 & 4.13e-03 &  4.65e+01 & 4.18e-04 & 8.10e+16 & 1.59e-07& 1.17e+05 & 6.82e-10& 3.63e+06 & 9.61e-12& 2.11e+08 \\
+\ 2 & 2.58e-03 & 2.33e+03 &  2.99e-05& 1.41e+17& 6.28e-10 & 2.36e+09 & 1.29e-14 & 1.40e+12& 7.38e-15 & 1.67e+15 \\
+\ 2.5 & 3.40e-03& 9.40e+03 & 1.42e-05 & 6.15e+17 & 3.76e-10 &  8.87e+10 & 1.29e-14& 1.40e+12 & 7.38e-15 & 1.67e+15\\
+\ 3 & 3.82e-03 & 2.81e+04 & 2.25e-05 & 1.14e+17 & 2.13e-10 & 1.64e+12 & 2.95e-13 & 7.42e+15 & 1.60e-12 & 5.56e+17\\
+\ 4 & 4.24e-03& 1.49e+05 & 2.25e-05& 3.06e+17 & 4.59e-11 & 1.55e+14 & 2.14e-10& 2.60e+17 & 9.35e-11 & 2.00e+18 \\
+\ 6 & 4.54e-03 & 1.46e+06 & 2.47e-03& 5.98e+17& 3.51e-09& 7.86e+16 & 3.61e-08 & 9.18e+17& 2.56e-08 & 7.46e+17\\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\caption{EDP 3}
+\centering
+\begin{tabular}{|c|cc|cc|cc|cc|cc|}
+\hline
+\ r &\multicolumn{2}{|c|}{$N=10$} &\multicolumn{2}{|c|}{$N=20$}& \multicolumn{2}{|c|}{$N=30$}& \multicolumn{2}{|c|}{$N=40$} & \multicolumn{2}{|c|}{$N=50$} \\
+\hline
+\   & ECM & Cond & ECM & Cond & ECM & Cond & ECM & Cond & ECM & Cond \\
+\hline
+\ 1.1 & 9.04e-04 &  4.65e+01 & 1.34e-02 & 8.10e+16 & 1.74e-08 & 1.17e+05 & 2.76e-10 &  3.63e+06 & 1.07e-12& 2.11e+08\\
+\ 2 & 3.10e-06 & 2.33e+03 & 9.05e-06 & 1.41e+17 & 1.55e-15 & 2.36e+09 & 1.40e-15 & 1.40e+12 & 2.69e-15 & 1.67e+15\\
+\ 3 &  1.25e-07 & 2.81e+04 & 1.35e-07 & 1.14e+17 & 1.45e-15 & 1.64e+12 & 1.55e-15& 7.42e+15 & 2.74e-15 & 5.56e+17\\
+\ 4 & 1.26e-08 & 1.49e+05 & 5.71e-08 & 3.06e+17 & 1.46e-15 & 1.55e+14 & 1.62e-15 & 2.60e+17 & 7.19e-15 & 2.00e+18\\
+\ 5 & 2.13e-09 & 5.28e+05 & 2.40e-08 & 7.81e+17 & 1.66e-15 & 5.23e+15 & 7.02e-15 & 3.46e+17 & 8.27e-15 & 3.045e+18\\
+\ 6 & 4.97e-10 & 1.46e+06 & 1.36e-07 & 5.99e+17 & 3.05e-15 &  7.86e+16 & 7.30e-15 & 9.18e+17 & 5.11e-15 & 7.46e+17\\
+\ 8 & 4.99e-11 & 7.16e+06 & 8.38e-11 & 1.11e+17 & 2.83e-14 & 2.51e+18 &  6.22e-15 & 4.44e+17 & 3.66e-15 &  7.56e+17\\
+
+\hline
+\end{tabular}
+\end{table}
+
+\end{landscape}
+\end{document}
