@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  4 JUN 2017 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  15 JUN 2017 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -536,13 +536,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <u1.png, id=1, 561.09625pt x 420.57124pt>
 File: u1.png Graphic file (type png)
  <use u1.png>
-Package pdftex.def Info: u1.png used on input line 37.
+Package pdftex.def Info: u1.png used on input line 36.
 (pdftex.def)             Requested size: 280.54744pt x 210.28511pt.
 
 <u3.png, id=2, 561.09625pt x 420.57124pt>
 File: u3.png Graphic file (type png)
  <use u3.png>
-Package pdftex.def Info: u3.png used on input line 50.
+Package pdftex.def Info: u3.png used on input line 49.
 (pdftex.def)             Requested size: 280.54744pt x 210.28511pt.
  [1
 
@@ -551,43 +551,98 @@ g (PNG copy)>]
 <distribucion1.png, id=15, 560.0925pt x 420.57124pt>
 File: distribucion1.png Graphic file (type png)
  <use distribucion1.png>
-Package pdftex.def Info: distribucion1.png used on input line 56.
-(pdftex.def)             Requested size: 252.03929pt x 189.25531pt.
+Package pdftex.def Info: distribucion1.png used on input line 55.
+(pdftex.def)             Requested size: 224.03302pt x 168.22551pt.
 
 <distribucion2.png, id=16, 560.0925pt x 420.57124pt>
 File: distribucion2.png Graphic file (type png)
  <use distribucion2.png>
-Package pdftex.def Info: distribucion2.png used on input line 57.
+Package pdftex.def Info: distribucion2.png used on input line 56.
+(pdftex.def)             Requested size: 224.03302pt x 168.22551pt.
+
+[2 <./u3.png (PNG copy)> <./distribucion1.png (PNG copy)> <./distribucion2.png 
+(PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+ []
+
+[4] <est_1_9_imq.png, id=26, 560.0925pt x 420.57124pt>
+File: est_1_9_imq.png Graphic file (type png)
+ <use est_1_9_imq.png>
+Package pdftex.def Info: est_1_9_imq.png used on input line 194.
 (pdftex.def)             Requested size: 252.03929pt x 189.25531pt.
 
-Overfull \hbox (22.81505pt too wide) in paragraph at lines 56--58
+<est_1_169_imq.png, id=27, 561.09625pt x 420.57124pt>
+File: est_1_169_imq.png Graphic file (type png)
+ <use est_1_169_imq.png>
+Package pdftex.def Info: est_1_169_imq.png used on input line 195.
+(pdftex.def)             Requested size: 252.49098pt x 189.25531pt.
+
+Overfull \hbox (23.26674pt too wide) in paragraph at lines 194--196
 [][] [] 
  []
 
-[2 <./u3.png (PNG copy)> <./distribucion1.png (PNG copy)> <./distribucion2.png 
-(PNG copy)>] [3] (./tfm.aux
+<est_1_9_gauss.png, id=28, 560.0925pt x 420.57124pt>
+File: est_1_9_gauss.png Graphic file (type png)
+ <use est_1_9_gauss.png>
+Package pdftex.def Info: est_1_9_gauss.png used on input line 200.
+(pdftex.def)             Requested size: 252.03929pt x 189.25531pt.
+
+<est_1_169_gauss.png, id=29, 561.09625pt x 420.57124pt>
+File: est_1_169_gauss.png Graphic file (type png)
+
+<use est_1_169_gauss.png>
+Package pdftex.def Info: est_1_169_gauss.png used on input line 201.
+(pdftex.def)             Requested size: 252.49098pt x 189.25531pt.
+
+Overfull \hbox (23.26674pt too wide) in paragraph at lines 200--202
+[][] [] 
+ []
+
+[5 <./est_1_9_imq.png (PNG copy)> <./est_1_169_imq.png (PNG copy)>] [6 <./est_1
+_9_gauss.png (PNG copy)> <./est_1_169_gauss.png (PNG copy)>] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+
+ []
+
+[8] (./tfm.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 4957 strings out of 493089
- 70406 string characters out of 6134841
- 145434 words of memory out of 5000000
- 8368 multiletter control sequences out of 15000+600000
+ 4989 strings out of 493089
+ 70990 string characters out of 6134841
+ 151522 words of memory out of 5000000
+ 8396 multiletter control sequences out of 15000+600000
  9498 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,38p,516b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,38p,1010b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on tfm.pdf (3 pages, 131722 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tfm.pdf (8 pages, 203574 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
